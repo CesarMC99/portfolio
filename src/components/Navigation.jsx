@@ -11,7 +11,7 @@ export const Navigation = () => {
         <ul className="flex gap-10">
           {links.map((link) => (
             <li key={link.id}>
-              <HashLink className="text-zinc-900 text-xl font-semibold transition-all duration-300 backdrop-blur-200 backdrop-saturate-200 hover:text-red-500" to={link.link}>{link.name}</HashLink>
+              <HashLink className="text-zinc-900 text-xl font-semibold transition-all duration-300 hover:text-red-500" to={link.link}>{link.name}</HashLink>
             </li>
           ))}
         </ul>
